@@ -1,0 +1,529 @@
+@media (min-width:1400px) {}
+
+@media (min-width:1200px) and (max-width:1399px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:992px) and (max-width:1099px) {}
+
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 95%;
+    }
+    .menu-list {
+        display: block;
+        text-align: right;
+        position: absolute;
+        width: 25%;
+        top: 8%;
+        right: 9.5%;
+        display: none;
+    }
+    .menu-list p a {
+        font-size: 16px;
+    }
+    .menu-list p {
+        background-color: #CCCCCC;
+        padding: 2px 0px;
+        margin-bottom: 1px;
+    }
+    .togol-menu {
+        display: block;
+        float: right;
+    }
+    .tog {
+        position: relative;
+        padding-top: 5px;
+    }
+    .togol-menu:hover~.menu-list {
+        display: block;
+    }
+    .btm-header {
+        padding-top: 40px;
+    }
+    .btm-h {
+        width: 60%;
+        font-size: 40px;
+    }
+    .btm-p {
+        padding-top: 25px;
+        width: 55%;
+    }
+    .button-p {
+        padding-top: 30px;
+        width: 50%;
+    }
+    button {
+        height: 40px;
+        width: 170px;
+    }
+    .btm-h-d {
+        font-size: 14px;
+    }
+    .main {
+        width: 95%;
+    }
+    .sec-1 {
+        padding: 35px 25px;
+    }
+    .sec-1 h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .main-s1 {
+        display: block;
+        padding: 0px 10px;
+    }
+    .main-s1 div {
+        width: 60%;
+        margin: auto;
+        padding: 20px 15px;
+    }
+    .main-s1 div img {
+        height: 50px;
+        width: 50px;
+    }
+    /* ===============####======== */
+    .sec-2 h1 {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .sec-2-img div {
+        padding: 5px 0px;
+    }
+    .sec-2-img div img {
+        height: 22px;
+    }
+    .footer {
+        width: 95%;
+    }
+    .f-main {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .menu-list {
+        display: block;
+        text-align: right;
+        position: absolute;
+        width: 50%;
+        top: 8%;
+        right: 5%;
+        display: none;
+    }
+    .menu-list p a {
+        font-size: 15px;
+    }
+    .menu-list p {
+        background-color: #CCCCCC;
+        padding: 2px 0px;
+        margin-bottom: 1px;
+    }
+    .togol-menu {
+        display: block;
+        float: right;
+    }
+    .tog {
+        position: relative;
+        padding-top: 5px;
+    }
+    .togol-menu:hover~.menu-list {
+        display: block;
+    }
+    .btm-header {
+        padding-top: 35px;
+    }
+    .btm-h {
+        width: 70%;
+        font-size: 35px;
+    }
+    .btm-p {
+        padding-top: 20px;
+        width: 60%;
+    }
+    .button-p {
+        padding-top: 25px;
+        width: 50%;
+    }
+    button {
+        height: 35px;
+        width: 170px;
+        font-size: 18px;
+    }
+    .btm-h-d {
+        font-size: 14px;
+        padding: 4px 0px 10px 0px;
+    }
+    .main {
+        width: 100%;
+    }
+    .sec-1 {
+        padding: 30px 25px;
+    }
+    .sec-1 h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .main-s1 {
+        display: block;
+        padding: 10px 10px;
+    }
+    .main-s1 div {
+        width: 80%;
+        margin: auto;
+        padding: 20px 10px;
+    }
+    .main-s1 div img {
+        height: 50px;
+        width: 50px;
+    }
+    .main-s1 div h2 {
+        font-size: 25px;
+        padding: 0px 0px 0px 0px;
+    }
+    .main-s1 div p {
+        font-size: 18px;
+    }
+    /* ===============####======== */
+    .sec-2 {
+        padding: 20px 10px;
+    }
+    .sec-2 h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .sec-2-img {
+        /* display: block; */
+        width: 90%;
+    }
+    .sec-2-img div {
+        padding: 5px 0px;
+    }
+    .sec-2-img div img {
+        height: 20px;
+    }
+    .sec-2 p a {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .sec-3 {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .sec-3 span {
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    .footer {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .f-main {
+        margin: auto;
+        padding: 15px 0px;
+        width: 90%;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .footer .s {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width:321px) and (max-width:575px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .menu-list {
+        display: block;
+        text-align: right;
+        position: absolute;
+        width: 50%;
+        top: 8%;
+        right: 5%;
+        display: none;
+    }
+    .menu-list p a {
+        font-size: 15px;
+    }
+    .menu-list p {
+        background-color: #CCCCCC;
+        padding: 2px 0px;
+        margin-bottom: 1px;
+    }
+    .togol-menu {
+        display: block;
+        float: right;
+    }
+    .tog {
+        position: relative;
+        padding-top: 5px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .togol-menu:hover~.menu-list {
+        display: block;
+    }
+    .btm-header {
+        padding-top: 35px;
+    }
+    .btm-h {
+        width: 90%;
+        font-size: 25px;
+    }
+    .btm-p {
+        padding-top: 18px;
+        width: 85%;
+    }
+    .button-p {
+        padding-top: 10px;
+        width: 50%;
+    }
+    button {
+        height: 35px;
+        width: 150px;
+        font-size: 15px;
+    }
+    .btm-h-d {
+        font-size: 10px;
+        padding: 4px 0px 10px 0px;
+    }
+    .main {
+        width: 100%;
+    }
+    .sec-1 {
+        padding: 20px 25px;
+    }
+    .sec-1 h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .main-s1 {
+        display: block;
+        padding: 0px 10px;
+    }
+    .main-s1 div {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .main-s1 div img {
+        height: 40px;
+        width: 40px;
+    }
+    .main-s1 div h2 {
+        font-size: 22px;
+        padding: 0px 0px 0px 0px;
+    }
+    .main-s1 div p {
+        font-size: 18px;
+    }
+    /* ===============####======== */
+    .sec-2 {
+        padding: 10px 10px;
+    }
+    .sec-2 h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .sec-2-img {
+        display: block;
+        width: 40%;
+    }
+    .sec-2-img div {
+        padding: 5px 0px;
+    }
+    .sec-2-img div img {
+        height: 15px;
+    }
+    .sec-2 p a {
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+    .sec-3 {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .sec-3 span {
+        padding: 0px 0px;
+        font-size: 15px;
+        display: inline-block;
+    }
+    .footer {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .f-main {
+        margin: auto;
+        padding: 10px 0px;
+        width: 90%;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer .s {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .logo h3 {
+        font-size: 16px;
+    }
+    .menu-list {
+        display: block;
+        text-align: right;
+        position: absolute;
+        width: 50%;
+        top: 8%;
+        right: 5%;
+        /* background-color: antiquewhite; */
+        display: none;
+    }
+    .menu-list p a {
+        font-size: 15px;
+    }
+    .menu-list p {
+        background-color: #CCCCCC;
+        padding: 2px 0px;
+        margin-bottom: 1px;
+    }
+    .togol-menu {
+        display: block;
+        float: right;
+    }
+    .tog {
+        position: relative;
+        padding-top: 5px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .togol-menu:hover~.menu-list {
+        display: block;
+    }
+    .btm-header {
+        padding-top: 35px;
+    }
+    .btm-h {
+        width: 90%;
+        font-size: 25px;
+    }
+    .btm-p {
+        padding-top: 18px;
+        width: 85%;
+    }
+    .button-p {
+        padding-top: 10px;
+        width: 50%;
+    }
+    button {
+        height: 35px;
+        width: 150px;
+        font-size: 15px;
+    }
+    .btm-h-d {
+        font-size: 10px;
+        padding: 4px 0px 10px 0px;
+    }
+    .main {
+        width: 100%;
+    }
+    .sec-1 {
+        padding: 20px 25px;
+    }
+    .sec-1 h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .main-s1 {
+        display: block;
+        padding: 0px 10px;
+    }
+    .main-s1 div {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .main-s1 div img {
+        height: 40px;
+        width: 40px;
+    }
+    .main-s1 div h2 {
+        font-size: 22px;
+        padding: 0px 0px 0px 0px;
+    }
+    .main-s1 div p {
+        font-size: 18px;
+    }
+    /* ===============####======== */
+    .sec-2 {
+        padding: 10px 10px;
+    }
+    .sec-2 h1 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .sec-2-img {
+        display: block;
+        width: 40%;
+    }
+    .sec-2-img div {
+        padding: 5px 0px;
+    }
+    .sec-2-img div img {
+        height: 15px;
+    }
+    .sec-2 p a {
+        font-size: 15px;
+        padding: 0px 0px;
+    }
+    .sec-3 {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .sec-3 span {
+        padding: 0px 0px;
+        font-size: 15px;
+        display: inline-block;
+    }
+    .footer {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .f-main {
+        margin: auto;
+        padding: 10px 0px;
+        width: 90%;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer .s {
+        padding-top: 10px;
+    }
+}
